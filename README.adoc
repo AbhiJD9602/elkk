@@ -149,16 +149,12 @@ docker-compose down -v
 +
 `Zipkin` can be accessed at http://localhost:9411
 +
-The figure below shows an example of the complete flow a news passes through. It goes since `producer-api`, where the news is created, until `news-client`.
-+
 
 * *Kafka Manager*
 +
 `Kafka Manager` can be accessed at http://localhost:9000
 +
-The figure below shows the Kafka topics consumers. As we can see, the consumers are updated as the `lag` is `0`
-+
-image::images/kafka-manager-consumers.png[]
+
 +
 *Configuration*
 +
